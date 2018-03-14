@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Personal Blog</string>
+    <string name="action_settings">Settings</string>
+    <string name="Title">TextView</string>
+    <string name="simpleTextView">TextView</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_hello_grid_view">Image Gallery</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_about_page">AboutPage</string>
+    <string name="content">Some videos of my rock climbing trips around the alps</string>
+    <string name="title_activity_info">Info</string>
+
+
+</resources>

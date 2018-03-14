@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/simpleTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="A small image gallery of different locations"
+        android:textColor="#0074D9"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/diag"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="The images were taken in the same locations as the videos"
+        android:textColor="#0074D9"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"/>
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRotateImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Image" />
+
+    <Button
+        android:id="@+id/Backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to main page" />
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to the video page" />
+</LinearLayout>
